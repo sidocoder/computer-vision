@@ -1,10 +1,4 @@
-# Computer Vision and Image Processing: Individual Assignment
-
-**University:** Adama Science and Technology University (ASTU)  
-**Author:** Sifhoran Regassa  
-**ID:** UGR/25600/14  
-**Department:** Software Engineering  
-**Instructor:** Dr. Tagel Aboneh  
+# Computer Vision and Image Processing:
 
 ---
 
@@ -20,10 +14,18 @@ Implementation of the multi-stage Canny algorithm to identify structural boundar
 * **Process:** Noise Reduction (Gaussian Blur) → Gradient Calculation (Sobel) → Non-Maximum Suppression → Hysteresis Thresholding.
 * **Key Feature:** Demonstration of threshold adjustments to optimize edge-map clarity.
 
+* **Sample:**
+![Canny Edge Detection Result](image.png)
 ### Task 2: Feature Matching (SIFT & ORB)
 Comparison of local feature identification and matching.
 * **SIFT (Scale-Invariant Feature Transform):** High-precision gradient-based matching.
-* **ORB (Oriented FAST and Rotated BRIEF):** High-speed, efficient alternative to SURF/SIFT.
+* **Sample for SIFT algorithm**
+![SIFT algorithm Result](sift.jpg)
+* **ORB (Oriented FAST and Rotated BRIEF):** High-speed, 
+efficient alternative to SURF/SIFT.
+* **Sample for SIFT algorithm**
+![SURF algorithm Result](surf.jpg)
+
 * **Metric:** Uses Brute-Force (BF) Matcher with $L2$ Norm for SIFT and Hamming Distance for ORB.
 
 ### Task 3: Image Classification (Cat vs. Dog)
@@ -31,6 +33,8 @@ A benchmarking study between Classical Machine Learning and Deep Learning.
 * **Classical Model:** SVM (Support Vector Machine) with RBF Kernel and flattened pixel features.
 * **Deep Learning Model:** CNN (Convolutional Neural Network) using spatial hierarchies.
 * **Optimizations:** Adam Optimizer, Dropout for regularization, and Pixel Normalization.
+* **Sample**
+![CNN vs SVM Result](cnnvssvm.jpg)
 
 ---
 
