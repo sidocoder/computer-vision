@@ -15,16 +15,16 @@ Implementation of the multi-stage Canny algorithm to identify structural boundar
 * **Key Feature:** Demonstration of threshold adjustments to optimize edge-map clarity.
 
 * **Sample:**
-![Canny Edge Detection Result](image.png)
+![Canny Edge Detection Result](assets/cannyedgedetection.png)
 ### Task 2: Feature Matching (SIFT & ORB)
 Comparison of local feature identification and matching.
 * **SIFT (Scale-Invariant Feature Transform):** High-precision gradient-based matching.
 * **Sample for SIFT algorithm**
-![SIFT algorithm Result](sift.jpg)
+![SIFT algorithm Result](assets/sift.jpg)
 * **ORB (Oriented FAST and Rotated BRIEF):** High-speed, 
 efficient alternative to SURF/SIFT.
 * **Sample for SIFT algorithm**
-![SURF algorithm Result](surf.jpg)
+![SURF algorithm Result](assets/surf.jpg)
 
 * **Metric:** Uses Brute-Force (BF) Matcher with $L2$ Norm for SIFT and Hamming Distance for ORB.
 
@@ -34,7 +34,7 @@ A benchmarking study between Classical Machine Learning and Deep Learning.
 * **Deep Learning Model:** CNN (Convolutional Neural Network) using spatial hierarchies.
 * **Optimizations:** Adam Optimizer, Dropout for regularization, and Pixel Normalization.
 * **Sample**
-![CNN vs SVM Result](cnnvssvm.jpg)
+![CNN vs SVM Result](assets/cnnvssvm.jpg)
 
 ---
 
